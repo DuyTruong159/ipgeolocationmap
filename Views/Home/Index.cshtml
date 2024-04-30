@@ -5,12 +5,14 @@
 @using(Html.BeginForm()) 
 {
     <div class="input-group input-group-lg">
-        <span class="input-group-text">IPv6</span>
-        <input name="ipAddress" class="form-control" type="text"
-            pattern="^(([0-9a-fA-F]{1}|[1-9a-fA-F]{1}[0-9a-fA-F]{1,3}):){7}([0-9a-fA-F]{1}|[1-9a-fA-F]{1}[0-9a-fA-F]{1,3})$" title="Please fill Ipv6">
+        <span class="input-group-text">IP</span>
+        <input name="ipAddress" class="form-control" type="text" placeholder="@ViewBag.IPAddress"
+            pattern="^((\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.){3}(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])$" title="Please fill Ipv6">
         <input class="btn btn-primary" type="submit" value="Map Location">
     </div>
 }
+
+@if(ViewBag.error){<p class="text-center text-danger">Don't see</p>}
 
 @if(ViewBag.model != null) {
     <table class="table table-striped">

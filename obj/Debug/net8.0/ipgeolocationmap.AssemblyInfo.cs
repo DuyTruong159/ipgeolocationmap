@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ipgeolocationmap")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfd0f4740d766e5fc0dc4279c28dd7edb022015c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ipgeolocationmap")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ipgeolocationmap")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

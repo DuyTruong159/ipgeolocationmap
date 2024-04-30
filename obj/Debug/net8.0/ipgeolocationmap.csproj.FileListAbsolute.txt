@@ -365,3 +365,4 @@
 /Users/truongpham/Desktop/code/ipgeolocationmap/obj/Debug/net8.0/ipgeolocationmap.csproj.AssemblyReference.cache
 /Users/truongpham/Desktop/code/ipgeolocationmap/obj/Debug/net8.0/ipgeolocationmap.MvcApplicationPartsAssemblyInfo.cs
 /Users/truongpham/Desktop/code/ipgeolocationmap/obj/Debug/net8.0/ipgeoloc.46529A2E.Up2Date
+/Users/truongpham/Desktop/code/ipgeolocationmap/obj/Debug/net8.0/ipgeolocationmap.sourcelink.json
